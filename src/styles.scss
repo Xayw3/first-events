@@ -1,0 +1,96 @@
+@import 'reset.scss';
+
+.container {
+  max-width: 1135px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 35px 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.btn {
+  padding: 20px 40px;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn--1 {
+  background-color: #017187;
+}
+
+.btn--2 {
+  background-color: rgba(92, 1, 135, 0.71);
+}
+
+.btn--3 {
+  background-color: rgba(135, 17, 1, 0.56);
+}
+
+.btn--4 {
+  background-color: rgba(1, 135, 14, 0.63);
+}
+
+.btn--5 {
+  background-color: #E2CF22;
+}
+
+.btn--6 {
+  background-color: #011E87;
+}
+
+.btn--7 {
+  background-color: #18D5E1;
+  margin-top: 57px;
+}
+
+.box-wrapper {
+  display: flex;
+  gap: 111px;
+  flex-wrap: wrap;
+  margin-top: 53px;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: #1FC2AE;
+  border-radius: 4px;
+  font-size: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.color-1 {
+  background-color: #12b3d2;
+}
+
+.color-2 {
+  background-color: #2608a9;
+}
+
+.color-3 {
+  background-color: #89b289;
+}
+
+.color-4 {
+  background-color: #831061;
+}
+
+.color-5 {
+  background-color: #af0000;
+}
+
+
